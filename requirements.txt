@@ -1,0 +1,21 @@
+# langchian
+langchain 
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-google-genai
+
+transformers
+huggingface-hub
+sentence-transformers
+
+youtube-transcript-api
+
+python-dotenv
+
+numpy
+scikit-learn
+
+faiss-cpu
+
+streamlit
