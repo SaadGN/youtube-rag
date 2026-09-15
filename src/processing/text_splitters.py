@@ -1,4 +1,4 @@
-from langchain_text_splitters import TextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from src.config.settings import CHUNK_SIZE,CHUNK_OVERLAP
 
 def split_transcript(transcript:str):
@@ -6,7 +6,7 @@ def split_transcript(transcript:str):
     Split transcript into overlapping documents
     """
 
-    splitter = TextSplitter(
+    splitter = RecursiveCharacterTextSplitter(
         chunk_size=CHUNK_SIZE,
         chunk_overlap=CHUNK_OVERLAP
     )
